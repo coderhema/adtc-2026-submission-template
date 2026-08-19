@@ -1,0 +1,245 @@
+{
+  "description": "Bilingual WAEC-style MCQ eval set (EN/YO/HA/SW/IG), used in the Colab benchmark notebook. Answers verified by construction (simple math).",
+  "questions": [
+    {
+      "lang": "en",
+      "subject": "math",
+      "answer": "B",
+      "question": "A trader buys a bag of rice for N24,000 and sells it for N30,000. What is the percentage profit?",
+      "choices": {
+        "A": "20%",
+        "B": "25%",
+        "C": "30%",
+        "D": "15%"
+      }
+    },
+    {
+      "lang": "en",
+      "subject": "math",
+      "answer": "C",
+      "question": "If 2x + 5 = 17, what is the value of x?",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      }
+    },
+    {
+      "lang": "en",
+      "subject": "math",
+      "answer": "B",
+      "question": "The angles of a triangle are x, 2x and 3x. What is the value of x?",
+      "choices": {
+        "A": "20 degrees",
+        "B": "30 degrees",
+        "C": "40 degrees",
+        "D": "60 degrees"
+      }
+    },
+    {
+      "lang": "en",
+      "subject": "science",
+      "answer": "B",
+      "question": "Which of the following is NOT a vector quantity?",
+      "choices": {
+        "A": "Force",
+        "B": "Mass",
+        "C": "Velocity",
+        "D": "Weight"
+      }
+    },
+    {
+      "lang": "yo",
+      "subject": "math",
+      "answer": "B",
+      "question": "Oníṣòwò kan ra àpò ìrẹsì kan ní N24,000, ó sì tà á ní N30,000. Kín ni ìpín ọgọ́rùn-ún èrè rẹ̀?",
+      "choices": {
+        "A": "20%",
+        "B": "25%",
+        "C": "30%",
+        "D": "15%"
+      }
+    },
+    {
+      "lang": "yo",
+      "subject": "math",
+      "answer": "C",
+      "question": "Bí 2x + 5 = 17, kín ni iye x?",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      }
+    },
+    {
+      "lang": "yo",
+      "subject": "math",
+      "answer": "B",
+      "question": "Àwọn igun ìgbá mẹ́ta kan jẹ́ x, 2x àti 3x. Kín ni iye x?",
+      "choices": {
+        "A": "20 ìwọ̀n",
+        "B": "30 ìwọ̀n",
+        "C": "40 ìwọ̀n",
+        "D": "60 ìwọ̀n"
+      }
+    },
+    {
+      "lang": "yo",
+      "subject": "science",
+      "answer": "B",
+      "question": "Èwo nínú àwọn wọ̀nyí kì í ṣe òye afẹ̀sọ́nà (vector quantity)?",
+      "choices": {
+        "A": "Agbára",
+        "B": "Ìwúwo",
+        "C": "Ìyára",
+        "D": "Àdánwó"
+      }
+    },
+    {
+      "lang": "ha",
+      "subject": "math",
+      "answer": "B",
+      "question": "Wani ɗan kasuwa ya sayi buhun shinkafa akan N24,000 ya kuma sayar da shi akan N30,000. Menene kashi na riba?",
+      "choices": {
+        "A": "20%",
+        "B": "25%",
+        "C": "30%",
+        "D": "15%"
+      }
+    },
+    {
+      "lang": "ha",
+      "subject": "math",
+      "answer": "C",
+      "question": "Idan 2x + 5 = 17, menene darajar x?",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      }
+    },
+    {
+      "lang": "ha",
+      "subject": "math",
+      "answer": "B",
+      "question": "Kusurwoyin alwatika sune x, 2x da 3x. Menene darajar x?",
+      "choices": {
+        "A": "20 digiri",
+        "B": "30 digiri",
+        "C": "40 digiri",
+        "D": "60 digiri"
+      }
+    },
+    {
+      "lang": "ha",
+      "subject": "science",
+      "answer": "B",
+      "question": "Wanne daga cikin waɗannan ba shi ne vector ba?",
+      "choices": {
+        "A": "Ƙarfi",
+        "B": "Nauyi (mass)",
+        "C": "Gudu",
+        "D": "Nauyin da aka auna (weight)"
+      }
+    },
+    {
+      "lang": "sw",
+      "subject": "math",
+      "answer": "B",
+      "question": "Mfanyabiashara alinunua gunia la mchele kwa N24,000 na kauza kwa N30,000. Ni asilimia ngapi ya faida?",
+      "choices": {
+        "A": "20%",
+        "B": "25%",
+        "C": "30%",
+        "D": "15%"
+      }
+    },
+    {
+      "lang": "sw",
+      "subject": "math",
+      "answer": "C",
+      "question": "Ikiwa 2x + 5 = 17, thamani ya x ni?",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      }
+    },
+    {
+      "lang": "sw",
+      "subject": "math",
+      "answer": "B",
+      "question": "Pembe za pembetatu ni x, 2x na 3x. Thamani ya x ni?",
+      "choices": {
+        "A": "nyuzi 20",
+        "B": "nyuzi 30",
+        "C": "nyuzi 40",
+        "D": "nyuzi 60"
+      }
+    },
+    {
+      "lang": "sw",
+      "subject": "science",
+      "answer": "B",
+      "question": "Ni ipi kati ya hizi ambayo SI vector?",
+      "choices": {
+        "A": "Nguvu",
+        "B": "Uzito (mass)",
+        "C": "Kasi",
+        "D": "Uzito (weight)"
+      }
+    },
+    {
+      "lang": "ig",
+      "subject": "math",
+      "answer": "B",
+      "question": "Onye ahịa zụtara akpa osikapa na N24,000 wee ree ya na N30,000. Gịnị bụ pasentị uru ọ nwetara?",
+      "choices": {
+        "A": "20%",
+        "B": "25%",
+        "C": "30%",
+        "D": "15%"
+      }
+    },
+    {
+      "lang": "ig",
+      "subject": "math",
+      "answer": "C",
+      "question": "Ọ bụrụ na 2x + 5 = 17, gịnị bụ uru x?",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      }
+    },
+    {
+      "lang": "ig",
+      "subject": "math",
+      "answer": "B",
+      "question": "Akụkụ nke triangle bụ x, 2x na 3x. Gịnị bụ uru x?",
+      "choices": {
+        "A": "digirii 20",
+        "B": "digirii 30",
+        "C": "digirii 40",
+        "D": "digirii 60"
+      }
+    },
+    {
+      "lang": "ig",
+      "subject": "science",
+      "answer": "B",
+      "question": "Olee nke n'ime ndị a na-abụghị vector quantity?",
+      "choices": {
+        "A": "Ike",
+        "B": "Mass",
+        "C": "Ọsọ",
+        "D": "Ibu"
+      }
+    }
+  ]
+}

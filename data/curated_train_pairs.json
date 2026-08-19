@@ -1,0 +1,75 @@
+{
+  "description": "Curated bilingual step-by-step training pairs (EN + YO + IG). Yoruba and Igbo need native-speaker validation.",
+  "pairs": [
+    {
+      "lang": "en",
+      "instruction": "A trader buys a bag of rice for N24,000 and sells it for N30,000. Calculate the percentage profit and show your working step by step.",
+      "response": "Step 1: Find the profit. Profit = selling price - cost price = N30,000 - N24,000 = N6,000.\nStep 2: Find the percentage profit. Percentage profit = (profit / cost price) x 100 = (6,000 / 24,000) x 100.\nStep 3: Simplify: 6,000 / 24,000 = 0.25. Multiply by 100: 0.25 x 100 = 25.\nAnswer: The percentage profit is 25%."
+    },
+    {
+      "lang": "yo",
+      "instruction": "Oníṣòwò kan ra àpò ìrẹsì kan ní N24,000, ó sì tà á ní N30,000. Ṣe ìṣirò ìpín ọgọ́rùn-ún èrè rẹ̀, kí o sì ṣàlàyé ìgbésẹ̀ kọ̀ọ̀kan.",
+      "response": "Ìgbésẹ̀ 1: Rí èrè. Èrè = iye tí a tà á - iye tí a ra á = N30,000 - N24,000 = N6,000.\nÌgbésẹ̀ 2: Rí ìpín ọgọ́rùn-ún èrè. Ìpín ọgọ́rùn-ún èrè = (èrè / iye tí a ra á) x 100 = (6,000 / 24,000) x 100.\nÌgbésẹ̀ 3: Rọrùn rẹ́: 6,000 / 24,000 = 0.25. Fi 100 sọ̀: 0.25 x 100 = 25.\nÌdáhùn: Ìpín ọgọ́rùn-ún èrè jẹ́ 25%."
+    },
+    {
+      "lang": "en",
+      "instruction": "If 2x + 5 = 17, what is the value of x? Show your working.",
+      "response": "Step 1: Subtract 5 from both sides: 2x + 5 - 5 = 17 - 5, so 2x = 12.\nStep 2: Divide both sides by 2: 2x / 2 = 12 / 2, so x = 6.\nAnswer: x = 6."
+    },
+    {
+      "lang": "yo",
+      "instruction": "Bí 2x + 5 = 17, kín ni iye x? Ṣàlàyé ìgbésẹ̀ rẹ.",
+      "response": "Ìgbésẹ̀ 1: Yọ 5 kúrò ní ẹ̀gbẹ́ méjèèjì: 2x + 5 - 5 = 17 - 5, nítorí náà 2x = 12.\nÌgbésẹ̀ 2: Pín 2 ní ẹ̀gbẹ́ méjèèjì: 2x / 2 = 12 / 2, nítorí náà x = 6.\nÌdáhùn: x = 6."
+    },
+    {
+      "lang": "en",
+      "instruction": "The angles of a triangle are x, 2x and 3x. Find the value of x.",
+      "response": "Step 1: The sum of angles in a triangle is 180 degrees.\nStep 2: So x + 2x + 3x = 180, which means 6x = 180.\nStep 3: Divide both sides by 6: x = 180 / 6 = 30.\nAnswer: x = 30 degrees."
+    },
+    {
+      "lang": "yo",
+      "instruction": "Àwọn igun ìgbá mẹ́ta kan jẹ́ x, 2x àti 3x. Rí iye x.",
+      "response": "Ìgbésẹ̀ 1: Àpapọ̀ igun ìgbá mẹ́ta jẹ́ 180 ìwọ̀n.\nÌgbésẹ̀ 2: Nítorí náà x + 2x + 3x = 180, èyí túmọ̀ sí 6x = 180.\nÌgbésẹ̀ 3: Pín 6 ní ẹ̀gbẹ́ méjèèjì: x = 180 / 6 = 30.\nÌdáhùn: x = 30 ìwọ̀n."
+    },
+    {
+      "lang": "en",
+      "instruction": "A student scored 45 out of 60 in a test. What percentage did she score?",
+      "response": "Step 1: Percentage = (score / total) x 100 = (45 / 60) x 100.\nStep 2: Simplify: 45 / 60 = 0.75. Multiply by 100: 0.75 x 100 = 75.\nAnswer: She scored 75%."
+    },
+    {
+      "lang": "yo",
+      "instruction": "Ọmọkọ́lẹ̀bíì kan gba 45 nínú 60 nínú ìdánwò kan. Ìpín ọgọ́rùn-ún mélòó ni ó gbà?",
+      "response": "Ìgbésẹ̀ 1: Ìpín ọgọ́rùn-ún = (àmì tí ó gbà / àpapọ̀) x 100 = (45 / 60) x 100.\nÌgbésẹ̀ 2: Rọrùn rẹ́: 45 / 60 = 0.75. Fi 100 sọ̀: 0.75 x 100 = 75.\nÌdáhùn: Ó gba 75%."
+    },
+    {
+      "lang": "en",
+      "instruction": "What is 15% of 200?",
+      "response": "Step 1: 15% means 15 out of 100, which is 15/100 = 0.15.\nStep 2: Multiply: 0.15 x 200 = 30.\nAnswer: 15% of 200 is 30."
+    },
+    {
+      "lang": "yo",
+      "instruction": "Kín ni 15% nínú 200?",
+      "response": "Ìgbésẹ̀ 1: 15% túmọ̀ sí 15 nínú 100, èyí tí ó jẹ́ 15/100 = 0.15.\nÌgbésẹ̀ 2: Ìsọdipúpọ̀: 0.15 x 200 = 30.\nÌdáhùn: 15% nínú 200 jẹ́ 30."
+    },
+    {
+      "lang": "en",
+      "instruction": "A shop gives a 10% discount on a radio priced at N8,000. How much does the buyer pay?",
+      "response": "Step 1: Find the discount. Discount = 10% of N8,000 = 0.10 x 8,000 = N800.\nStep 2: Subtract from the price: N8,000 - N800 = N7,200.\nAnswer: The buyer pays N7,200."
+    },
+    {
+      "lang": "yo",
+      "instruction": "Ilé ìtajà kan fún ni 10% ìdínkù lórí rédíò kan tí iye rẹ̀ jẹ́ N8,000. Eléyìí mélòó ni olùrà á san?",
+      "response": "Ìgbésẹ̀ 1: Rí ìdínkù. Ìdínkù = 10% nínú N8,000 = 0.10 x 8,000 = N800.\nÌgbésẹ̀ 2: Yọ ọ́ kúrò nínú iye: N8,000 - N800 = N7,200.\nÌdáhùn: Olùrà á san N7,200."
+    },
+    {
+      "lang": "ig",
+      "instruction": "Onye ahịa zụtara akpa osikapa na N24,000 wee ree ya na N30,000. Gbakọọ pasentị uru ọ nwetara, gosi usoro gị nke ọ bụla.",
+      "response": "Nzọụkwụ 1: Chọta uru. Uru = ọnụahịa e rere - ọnụahịa azụrụ = N30,000 - N24,000 = N6,000.\nNzọụkwụ 2: Chọta pasentị uru. Pasentị uru = (uru / ọnụahịa azụrụ) x 100 = (6,000 / 24,000) x 100.\nNzọụkwụ 3: Mee ka ọ dị mfe: 6,000 / 24,000 = 0.25. Mụbaa na 100: 0.25 x 100 = 25.\nAzịza: Pasentị uru bụ 25%."
+    },
+    {
+      "lang": "ig",
+      "instruction": "Ọ bụrụ na 2x + 5 = 17, gịnị bụ uru x? Gosi ọrụ gị.",
+      "response": "Nzọụkwụ 1: Wepụ 5 n'akụkụ abụọ: 2x + 5 - 5 = 17 - 5, yabụ 2x = 12.\nNzọụkwụ 2: Kewaa akụkụ abụọ site na 2: 2x / 2 = 12 / 2, yabụ x = 6.\nAzịza: x = 6."
+    }
+  ]
+}

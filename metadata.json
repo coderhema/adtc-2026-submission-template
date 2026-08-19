@@ -1,37 +1,43 @@
 {
-  "team_id": "your-team-id",
-  "domain": "coding_assistants",
-  "language_scope": ["en"],
-  "african_alpha_claim": false,
+  "team_id": "TODO",
+  "domain": "math_scientific_reasoning",
+  "language_scope": [
+    "yo",
+    "ha",
+    "sw",
+    "ig",
+    "en"
+  ],
+  "african_alpha_claim": true,
   "budget_laptop_claim": true,
   "submitter": {
-    "name": "your-name",
-    "email": "your-email@domain.com",
-    "github_handle": "your-github"
+    "name": "Tolulope Olugbemi",
+    "email": "olugbemiopedepo@gmail.com",
+    "github_handle": "coderhema"
   },
   "cross_disciplinary_pairing": {
-    "discipline": "education",
+    "discipline": "linguistics",
     "load_bearing": true,
-    "description": "Brief description of how your model serves a real-world domain."
+    "description": "Offline multilingual exam tutor for African secondary students: WAEC, NECO, GCE and JAMB-style practice solved step-by-step in Yoruba, Hausa, Swahili, Igbo and English, grounded in AfriGSM math word problems and past-paper question banks."
   },
   "test_prompts": [
     {
       "prompt_id": "tp_001",
-      "prompt": "Write a Python function that reads a CSV file and returns the column with the highest mean value."
+      "prompt": "A trader buys a bag of rice for N24,000 and sells it for N30,000. Calculate the percentage profit and show your working step by step."
     },
     {
       "prompt_id": "tp_002",
-      "prompt": "Explain the difference between a list and a tuple in Python, and give one example where each is the better choice."
+      "prompt": "Oníṣòwò kan ra àpò ìrẹsì kan ní N24,000, ó sì tà á ní N30,000. Ṣe ìṣirò ìpín ọgọ́rùn-ún èrè rẹ̀, kí o sì ṣàlàyé ìgbésẹ̀ kọ̀ọ̀kan."
     }
   ],
   "model": {
-    "name": "SmolLM2-135M-Instruct-Q4_K_M",
+    "name": "tiny-aya-global-q4_k_m",
     "runtime": "llama.cpp",
     "quantization": "GGUF Q4_K_M",
-    "parameters_estimate": "135M",
+    "parameters_estimate": "3.3B",
     "packaging": "binary_bundle"
   },
   "_runtime": {
-    "model_path": "model/SmolLM2-135M-Instruct-Q4_K_M.gguf"
+    "model_path": "model/tiny-aya-global-q4_k_m.gguf"
   }
 }
