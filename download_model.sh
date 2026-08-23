@@ -13,11 +13,11 @@ MODEL_DIR="$HERE/model"
 # After the Colab merge+quantize+upload step, set HEKIMA_MODEL_URL to your Hekima GGUF
 # (e.g. https://huggingface.co/coderhema/hekima-tiny-aya-q4_k_m.gguf) and rename
 # MODEL_FILE below to the Hekima filename (e.g. hekima-tiny-aya-q4_k_m.gguf).
-MODEL_FILE="$MODEL_DIR/tiny-aya-global-q4_k_m.gguf"
+MODEL_FILE="$MODEL_DIR/hekima-tiny-aya-q4_k_m.gguf"
 
-# Public Cohere Hugging Face GGUF (no auth required). Override with HEKIMA_MODEL_URL
-# once Hekima is built and uploaded.
-MODEL_URL="${HEKIMA_MODEL_URL:-https://huggingface.co/CohereLabs/tiny-aya-global-GGUF/resolve/main/tiny-aya-global-q4_k_m.gguf}"
+# Default points at the trained Hekima GGUF on Hugging Face (public, no auth).
+# Override with HEKIMA_MODEL_URL only if you host the weights elsewhere.
+MODEL_URL="${HEKIMA_MODEL_URL:-https://huggingface.co/coderhema/hekima-tiny-aya-q4_k_m/resolve/main/hekima-tiny-aya-q4_k_m.gguf}"
 
 mkdir -p "$MODEL_DIR"
 
