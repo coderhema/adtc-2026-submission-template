@@ -1,5 +1,5 @@
 {
-  "description": "Bilingual WAEC-style MCQ eval set (EN/YO/HA/SW/IG), used in the Colab benchmark notebook. Answers verified by construction (simple math).",
+  "description": "Bilingual reasoning MCQ eval set (EN/YO/HA/SW/IG), used in the Colab benchmark notebook. Answers verified by construction (simple math).",
   "questions": [
     {
       "lang": "en",
@@ -239,6 +239,66 @@
         "B": "Mass",
         "C": "Ọsọ",
         "D": "Ibu"
+      }
+    },
+    {
+      "lang": "en",
+      "subject": "math",
+      "answer": "B",
+      "question": "A car travels at 60 km/h. How far will it go in 2.5 hours?",
+      "choices": {
+        "A": "120 km",
+        "B": "150 km",
+        "C": "180 km",
+        "D": "200 km"
+      }
+    },
+    {
+      "lang": "yo",
+      "subject": "math",
+      "answer": "B",
+      "question": "Ọkọ̀ ayọ́kẹ́lẹ́ kan ń rìn ní iyára 60 km/h. Báwo ni yóò ṣe jìna ní wákàtí 2.5?",
+      "choices": {
+        "A": "120 km",
+        "B": "150 km",
+        "C": "180 km",
+        "D": "200 km"
+      }
+    },
+    {
+      "lang": "ha",
+      "subject": "math",
+      "answer": "B",
+      "question": "Wata mota tana tafiya da gudu 60 km/h. Nawa za ta tafi cikin awanni 2.5?",
+      "choices": {
+        "A": "120 km",
+        "B": "150 km",
+        "C": "180 km",
+        "D": "200 km"
+      }
+    },
+    {
+      "lang": "sw",
+      "subject": "math",
+      "answer": "B",
+      "question": "Gari inatembea kwa kasi 60 km/h. Itafikia mbali gani kwa saa 2.5?",
+      "choices": {
+        "A": "120 km",
+        "B": "150 km",
+        "C": "180 km",
+        "D": "200 km"
+      }
+    },
+    {
+      "lang": "ig",
+      "subject": "math",
+      "answer": "B",
+      "question": "Otu ụgbọ ala na-eme 60 km/h. Kedu anya ọ ga-eme n'ime awa 2.5?",
+      "choices": {
+        "A": "120 km",
+        "B": "150 km",
+        "C": "180 km",
+        "D": "200 km"
       }
     }
   ]
