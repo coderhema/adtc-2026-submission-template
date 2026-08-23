@@ -1,6 +1,6 @@
 # Technical Report - Hekima AI: Offline Multilingual Math & Scientific-Reasoning Assistant
 
-**Team ID:** TODO
+**Team ID:** hekima
 **Domain:** math_scientific_reasoning
 **Model:** tiny-aya-global-q4_k_m (3.3B, Cohere2 architecture)
 **Languages:** Yoruba, Hausa, Swahili, Igbo, English
