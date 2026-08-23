@@ -25,12 +25,12 @@ Before submitting, confirm every item:
 ## 📁 Required File Structure
 
 ```
-your-submission/
+adtc-2026/
 ├── metadata.json          ← Required. Team, model, and test prompt metadata.
 ├── download_model.sh      ← Required. Downloads your .gguf model weight file.
 ├── REPORT.md              ← Required. Technical writeup (problem, design, benchmarks).
 ├── model/
-│   └── your-model.gguf   ← Downloaded by the script above. Do NOT commit.
+│   └── hekima-tiny-aya-q4_k_m.gguf   ← Downloaded by the script above. Do NOT commit.
 └── .gitignore             ← Must exclude *.gguf and model/ from version control.
 ```
 
@@ -42,40 +42,40 @@ Fill in every field. No field should remain at its placeholder value.
 
 ```json
 {
-  "team_id": "your-team-id",
-  "domain": "coding_assistants",
-  "language_scope": ["en"],
-  "african_alpha_claim": false,
+  "team_id": "hekima",
+  "domain": "math_scientific_reasoning",
+  "language_scope": ["yo", "ha", "sw", "ig", "en"],
+  "african_alpha_claim": true,
   "budget_laptop_claim": true,
   "submitter": {
-    "name": "your-name",
-    "email": "your-email@domain.com",
-    "github_handle": "your-github"
+    "name": "Tolulope Olugbemi",
+    "email": "olugbemiopedepo@gmail.com",
+    "github_handle": "coderhema"
   },
   "cross_disciplinary_pairing": {
     "discipline": "education",
     "load_bearing": true,
-    "description": "Brief description of how your model serves a real-world domain."
+    "description": "Offline multilingual math and scientific-reasoning assistant for African learners. Solves arithmetic, algebra, geometry and applied word problems - including predictive and data-interpretation tasks - step-by-step in Yoruba, Hausa, Swahili, Igbo and English, with WAEC/JAMB-style exam practice as one deployment rather than the only one."
   },
   "test_prompts": [
     {
       "prompt_id": "tp_001",
-      "prompt": "Your first test prompt, written for your chosen domain."
+      "prompt": "A solar panel yields 2 kWh on a sunny day and 0.5 kWh on a cloudy day. If the next three days are sunny, cloudy, sunny, estimate the total energy output and show your working step by step."
     },
     {
       "prompt_id": "tp_002",
-      "prompt": "Your second test prompt, written for your chosen domain."
+      "prompt": "Pánẹ́lì òòrùn kan ń pèsè 2 kWh ní ọjọ́ oòrùn, ó sì ń pèsè 0.5 kWh ní ọjọ́ ìkùukùu. Bí ọjọ́ mẹ́ta tó máa bọ̀ bá jẹ́ oòrùn, ìkùukùu, oòrùn, ṣe ìṣirò àpapọ̀ agbára tó máa jáde, kí o sì ṣàlàyé ìgbésẹ̀ kọ̀ọ̀kan."
     }
   ],
   "model": {
-    "name": "YourModel-Q4_K_M",
+    "name": "hekima-tiny-aya-q4_k_m",
     "runtime": "llama.cpp",
     "quantization": "GGUF Q4_K_M",
-    "parameters_estimate": "1.1B",
+    "parameters_estimate": "3.3B",
     "packaging": "binary_bundle"
   },
   "_runtime": {
-    "model_path": "model/your-model.gguf"
+    "model_path": "model/hekima-tiny-aya-q4_k_m.gguf"
   }
 }
 ```
