@@ -67,6 +67,4 @@ Self-reported development benchmarks. Official scores are measured by the ADTC p
 - `metadata.json` - submission metadata, 2 test prompts (EN + YO)
 - `download_model.sh` - fetches tiny-aya-global-q4_k_m.gguf from Hugging Face
 - `model/` - weights land here (gitignored)
-- `app/` - Mojo application layer (chat + tutor)
 - `notebooks/` - QLoRA fine-tuning pipeline (Colab-ready)
-- `data/` - curated math & science QA (AfriGSM subset + WAEC past questions + bilingual pairs)
